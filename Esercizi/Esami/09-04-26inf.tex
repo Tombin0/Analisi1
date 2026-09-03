@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper]{article}
+\pagestyle{plain}
+\date{}
+%-------------------------------------------------------------------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath,amssymb,amscd,amsthm}
+
+\usepackage{multicol,longtable,tabularx}
+%\usepackage{array,epic,eepic}
+\usepackage{enumerate}
+
+\usepackage{latexsym}
+
+%\usepackage[scanall]{psfrag}
+%\usepackage{PSFigure,epsfig,graphicx}
+\usepackage{float}
+
+
+\usepackage{eufrak}
+\usepackage{ifthen}
+\usepackage{verbatim}
+\usepackage{calc}
+%\usepackage{refcheck}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theoremstyle:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem{lemma}[theo]{Lemma}
+\newtheorem{cor}[theo]{Corollary}
+%\theoremstyle{definition}
+\newtheorem{defi}[theo]{Definition}
+%\theoremstyle{definition}
+\newtheorem{eg}[theo]{Examples}
+\newtheorem{es}[theo]{Example}
+\theoremstyle{definition}
+\newtheorem{oss}[theo]{Remark}
+\newtheorem{remarks}[theo]{Remarks}
+%%teoremi e simili----------------------------------------------------------------------------------------------------------------------------------
+
+%\newcommand{\proof}{\noindent{\em Proof. } \,}
+\newcommand{\proofend}{\hfill{$\square$}}
+%numerazione----------------------------------------------------------------------------------------------------------------------------------------
+\numberwithin{equation}{section} \numberwithin{figure}{section}
+\numberwithin{table}{section}
+%separazione parole----------------------------------------------------------------------------------------------------------------------------------
+%\hyphenation{co-mo-no-to-ni-ci-ty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+Esame Analisi Matematica (A-L)\\
+Corso di Laurea in Informatica\\
+09-04-26
+\end{center}
+
+\ \\
+1.  \indent Si risolvano i seguenti limiti:
+\begin{enumerate}
+\item[(a)] $\lim\limits_{x \to -\infty} \sqrt{x^2-4x+1}+x;$
+\item[(b)] $\lim\limits_{n \to +\infty} \dfrac{n (e^{2/n^2}-1)}{\sin^2\left(\frac{1}{n}\right) + \ln\left(1+\frac{2}{n^2}\right)}.$
+\end{enumerate}
+2. \indent Si risolva il seguente integrale
+$$\int \ln^2 x \, dx.$$
+3. \indent Si disegni il grafico qualitativo della funzione
+ \begin{equation*}
+ f(x)=e^{-x} \sqrt{x-3}.
+\end{equation*}
+Si può trascurare lo studio della derivata seconda.\\ \\
+4. \indent Si studi il carattere della serie
+$$\sum_{n=1}^\infty \arctan \left(\dfrac{n+3}{n^2+4n}\right).$$
+\textbf{Si risponda alle seguenti domande.} \\ \\
+5. \indent  Data la funzione $f(x)=3x^2+4x$ si dica se soddisfa le ipotesi del teorema di Lagrange nell'intervallo $[0, 1]$. Si determini poi almeno un punto $x_0$ che soddisfa la tesi del teorema di Lagrange. \\ \\
+6. \indent Si enunci e si dimostri la Formula Fondamentale del Calcolo Integrale. \\ \\
+7. \indent Si presentino le definizioni di convergenza e assoluta convergenza di una serie, spiegando, anche attraverso esempi, i legami tra questi due concetti.\\ \\
+%8. \indent Si dimostri che ogni funzione derivabile in un punto è continua in quel punto. Vale il viceversa? In caso contrario, si presenti un controesempio.
+
+
+
+\end{document}
